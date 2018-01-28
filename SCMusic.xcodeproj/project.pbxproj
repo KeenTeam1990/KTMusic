@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7B069B81FC8239E00240FCE /* MusicPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B0697E1FC8239E00240FCE /* MusicPlayerManager.m */; };
+		A7B069B91FC8239E00240FCE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069811FC8239E00240FCE /* RootViewController.m */; };
+		A7B069BA1FC8239E00240FCE /* ContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069861FC8239E00240FCE /* ContentTableViewController.m */; };
+		A7B069BC1FC8239E00240FCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069881FC8239E00240FCE /* AppDelegate.m */; };
+		A7B069BD1FC8239E00240FCE /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B0698A1FC8239E00240FCE /* NavigationViewController.m */; };
+		A7B069BE1FC8239E00240FCE /* OMAlbumInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B0698D1FC8239E00240FCE /* OMAlbumInfo.m */; };
+		A7B069BF1FC8239E00240FCE /* OMSongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B0698F1FC8239E00240FCE /* OMSongInfo.m */; };
+		A7B069C01FC8239E00240FCE /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069901FC8239E00240FCE /* Const.m */; };
+		A7B069C21FC8239E00240FCE /* OMArtistInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069921FC8239E00240FCE /* OMArtistInfo.m */; };
+		A7B069C41FC8239E00240FCE /* OMHotSongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069951FC8239E00240FCE /* OMHotSongInfo.m */; };
+		A7B069C51FC8239E00240FCE /* SCIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B0699D1FC8239E00240FCE /* SCIconView.m */; };
+		A7B069C61FC8239E00240FCE /* SCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B0699E1FC8239E00240FCE /* SCImageView.m */; };
+		A7B069C71FC8239E00240FCE /* SCLrcTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069A11FC8239E00240FCE /* SCLrcTableView.m */; };
+		A7B069C81FC8239E00240FCE /* SongListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069A21FC8239E00240FCE /* SongListTableView.m */; };
+		A7B069C91FC8239E00240FCE /* SongListTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069A41FC8239E00240FCE /* SongListTopView.m */; };
+		A7B069CA1FC8239E00240FCE /* SongListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069A71FC8239E00240FCE /* SongListTableViewCell.m */; };
+		A7B069CB1FC8239E00240FCE /* MidView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069AA1FC8239E00240FCE /* MidView.m */; };
+		A7B069CC1FC8239E00240FCE /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069AB1FC8239E00240FCE /* TopView.m */; };
+		A7B069CD1FC8239E00240FCE /* SimpleControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069AD1FC8239E00240FCE /* SimpleControlView.m */; };
+		A7B069CE1FC8239E00240FCE /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069AE1FC8239E00240FCE /* BottomView.m */; };
+		A7B069CF1FC8239E00240FCE /* SongListView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069AF1FC8239E00240FCE /* SongListView.m */; };
+		A7B069D01FC8239E00240FCE /* TTTopChannelContianerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069B21FC8239E00240FCE /* TTTopChannelContianerView.m */; };
+		A7B069D11FC8239E00240FCE /* SCLrcTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069B31FC8239E00240FCE /* SCLrcTableViewCell.m */; };
+		A7B069D21FC8239E00240FCE /* MusicDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069B71FC8239E00240FCE /* MusicDownloader.m */; };
+		A7B069DD1FC823DD00240FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B069D81FC823DD00240FCE /* Assets.xcassets */; };
+		A7B069DE1FC823DD00240FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B069D91FC823DD00240FCE /* LaunchScreen.storyboard */; };
+		A7B069DF1FC823DD00240FCE /* 309769.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A7B069DB1FC823DD00240FCE /* 309769.lrc */; };
+		A7B069E01FC823DD00240FCE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7B069DC1FC823DD00240FCE /* Info.plist */; };
+		A7B069EC1FC87B7C00240FCE /* DetailControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B069EA1FC87B7C00240FCE /* DetailControlViewController.m */; };
+		A7E87DDD1F46C083003EA789 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E87DDC1F46C083003EA789 /* main.m */; };
+		E9017E404B4A0A96B04A6511 /* Pods_SCMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E1A34C89BD957AEE47B688 /* Pods_SCMusic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A7E88AC31F46E5E1003EA789 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6790A8193FA9B7CA308AE303 /* Pods-SCMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SCMusic/Pods-SCMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		A7B0697D1FC8239E00240FCE /* MusicPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerManager.h; sourceTree = "<group>"; };
+		A7B0697E1FC8239E00240FCE /* MusicPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerManager.m; sourceTree = "<group>"; };
+		A7B069811FC8239E00240FCE /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A7B069831FC8239E00240FCE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7B069841FC8239E00240FCE /* ContentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentTableViewController.h; sourceTree = "<group>"; };
+		A7B069851FC8239E00240FCE /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		A7B069861FC8239E00240FCE /* ContentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentTableViewController.m; sourceTree = "<group>"; };
+		A7B069881FC8239E00240FCE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7B069891FC8239E00240FCE /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A7B0698A1FC8239E00240FCE /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		A7B0698C1FC8239E00240FCE /* OMHotSongInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMHotSongInfo.h; sourceTree = "<group>"; };
+		A7B0698D1FC8239E00240FCE /* OMAlbumInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMAlbumInfo.m; sourceTree = "<group>"; };
+		A7B0698F1FC8239E00240FCE /* OMSongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSongInfo.m; sourceTree = "<group>"; };
+		A7B069901FC8239E00240FCE /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
+		A7B069921FC8239E00240FCE /* OMArtistInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMArtistInfo.m; sourceTree = "<group>"; };
+		A7B069941FC8239E00240FCE /* OMAlbumInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMAlbumInfo.h; sourceTree = "<group>"; };
+		A7B069951FC8239E00240FCE /* OMHotSongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMHotSongInfo.m; sourceTree = "<group>"; };
+		A7B069961FC8239E00240FCE /* OMSongInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSongInfo.h; sourceTree = "<group>"; };
+		A7B069971FC8239E00240FCE /* OMArtistInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMArtistInfo.h; sourceTree = "<group>"; };
+		A7B069991FC8239E00240FCE /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		A7B0699B1FC8239E00240FCE /* TopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopView.h; sourceTree = "<group>"; };
+		A7B0699C1FC8239E00240FCE /* MidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidView.h; sourceTree = "<group>"; };
+		A7B0699D1FC8239E00240FCE /* SCIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCIconView.m; sourceTree = "<group>"; };
+		A7B0699E1FC8239E00240FCE /* SCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCImageView.m; sourceTree = "<group>"; };
+		A7B0699F1FC8239E00240FCE /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
+		A7B069A01FC8239E00240FCE /* SimpleControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleControlView.h; sourceTree = "<group>"; };
+		A7B069A11FC8239E00240FCE /* SCLrcTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLrcTableView.m; sourceTree = "<group>"; };
+		A7B069A21FC8239E00240FCE /* SongListTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongListTableView.m; sourceTree = "<group>"; };
+		A7B069A31FC8239E00240FCE /* SongListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongListView.h; sourceTree = "<group>"; };
+		A7B069A41FC8239E00240FCE /* SongListTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongListTopView.m; sourceTree = "<group>"; };
+		A7B069A51FC8239E00240FCE /* SCLrcTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLrcTableViewCell.h; sourceTree = "<group>"; };
+		A7B069A61FC8239E00240FCE /* TTTopChannelContianerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTopChannelContianerView.h; sourceTree = "<group>"; };
+		A7B069A71FC8239E00240FCE /* SongListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongListTableViewCell.m; sourceTree = "<group>"; };
+		A7B069A81FC8239E00240FCE /* SCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCImageView.h; sourceTree = "<group>"; };
+		A7B069A91FC8239E00240FCE /* SCIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCIconView.h; sourceTree = "<group>"; };
+		A7B069AA1FC8239E00240FCE /* MidView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidView.m; sourceTree = "<group>"; };
+		A7B069AB1FC8239E00240FCE /* TopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopView.m; sourceTree = "<group>"; };
+		A7B069AC1FC8239E00240FCE /* SCLrcTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLrcTableView.h; sourceTree = "<group>"; };
+		A7B069AD1FC8239E00240FCE /* SimpleControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleControlView.m; sourceTree = "<group>"; };
+		A7B069AE1FC8239E00240FCE /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
+		A7B069AF1FC8239E00240FCE /* SongListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongListView.m; sourceTree = "<group>"; };
+		A7B069B01FC8239E00240FCE /* SongListTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongListTableView.h; sourceTree = "<group>"; };
+		A7B069B11FC8239E00240FCE /* SongListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongListTableViewCell.h; sourceTree = "<group>"; };
+		A7B069B21FC8239E00240FCE /* TTTopChannelContianerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTopChannelContianerView.m; sourceTree = "<group>"; };
+		A7B069B31FC8239E00240FCE /* SCLrcTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLrcTableViewCell.m; sourceTree = "<group>"; };
+		A7B069B41FC8239E00240FCE /* SongListTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongListTopView.h; sourceTree = "<group>"; };
+		A7B069B61FC8239E00240FCE /* MusicDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDownloader.h; sourceTree = "<group>"; };
+		A7B069B71FC8239E00240FCE /* MusicDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDownloader.m; sourceTree = "<group>"; };
+		A7B069D81FC823DD00240FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7B069DA1FC823DD00240FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7B069DB1FC823DD00240FCE /* 309769.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 309769.lrc; sourceTree = "<group>"; };
+		A7B069DC1FC823DD00240FCE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B069E91FC87B7C00240FCE /* DetailControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailControlViewController.h; sourceTree = "<group>"; };
+		A7B069EA1FC87B7C00240FCE /* DetailControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailControlViewController.m; sourceTree = "<group>"; };
+		A7E87DD81F46C083003EA789 /* SCMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E87DDC1F46C083003EA789 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3E1A34C89BD957AEE47B688 /* Pods_SCMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A8DB80795BD417E85F0CAB /* Pods-SCMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-SCMusic/Pods-SCMusic.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7E87DD51F46C083003EA789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9017E404B4A0A96B04A6511 /* Pods_SCMusic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CA3F77D59CD895E3A2334C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3E1A34C89BD957AEE47B688 /* Pods_SCMusic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81608DCE1E031CB2657B57F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6790A8193FA9B7CA308AE303 /* Pods-SCMusic.debug.xcconfig */,
+				E9A8DB80795BD417E85F0CAB /* Pods-SCMusic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7B0697B1FC8239E00240FCE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7B069B51FC8239E00240FCE /* MusicDownloader */,
+				A7B0697C1FC8239E00240FCE /* MusicPlayerManager */,
+				A7B069801FC8239E00240FCE /* Controller */,
+				A7B0698B1FC8239E00240FCE /* Model */,
+				A7B0699A1FC8239E00240FCE /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7B0697C1FC8239E00240FCE /* MusicPlayerManager */ = {
+			isa = PBXGroup;
+			children = (
+				A7B0697D1FC8239E00240FCE /* MusicPlayerManager.h */,
+				A7B0697E1FC8239E00240FCE /* MusicPlayerManager.m */,
+			);
+			path = MusicPlayerManager;
+			sourceTree = "<group>";
+		};
+		A7B069801FC8239E00240FCE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7B069831FC8239E00240FCE /* AppDelegate.h */,
+				A7B069881FC8239E00240FCE /* AppDelegate.m */,
+				A7B069851FC8239E00240FCE /* NavigationViewController.h */,
+				A7B0698A1FC8239E00240FCE /* NavigationViewController.m */,
+				A7B069891FC8239E00240FCE /* RootViewController.h */,
+				A7B069811FC8239E00240FCE /* RootViewController.m */,
+				A7B069841FC8239E00240FCE /* ContentTableViewController.h */,
+				A7B069861FC8239E00240FCE /* ContentTableViewController.m */,
+				A7B069E91FC87B7C00240FCE /* DetailControlViewController.h */,
+				A7B069EA1FC87B7C00240FCE /* DetailControlViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7B0698B1FC8239E00240FCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7B069941FC8239E00240FCE /* OMAlbumInfo.h */,
+				A7B0698D1FC8239E00240FCE /* OMAlbumInfo.m */,
+				A7B0698C1FC8239E00240FCE /* OMHotSongInfo.h */,
+				A7B069951FC8239E00240FCE /* OMHotSongInfo.m */,
+				A7B069971FC8239E00240FCE /* OMArtistInfo.h */,
+				A7B069921FC8239E00240FCE /* OMArtistInfo.m */,
+				A7B069961FC8239E00240FCE /* OMSongInfo.h */,
+				A7B0698F1FC8239E00240FCE /* OMSongInfo.m */,
+				A7B069991FC8239E00240FCE /* Const.h */,
+				A7B069901FC8239E00240FCE /* Const.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7B0699A1FC8239E00240FCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7B069A61FC8239E00240FCE /* TTTopChannelContianerView.h */,
+				A7B069B21FC8239E00240FCE /* TTTopChannelContianerView.m */,
+				A7B069E41FC8248400240FCE /* SCImageView */,
+				A7B069E31FC8247600240FCE /* SimpleControlView */,
+				A7B069E21FC8246800240FCE /* DetailControlView */,
+				A7B069E11FC8241A00240FCE /* SongListView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7B069B51FC8239E00240FCE /* MusicDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				A7B069B61FC8239E00240FCE /* MusicDownloader.h */,
+				A7B069B71FC8239E00240FCE /* MusicDownloader.m */,
+			);
+			path = MusicDownloader;
+			sourceTree = "<group>";
+		};
+		A7B069D71FC823DD00240FCE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7B069D81FC823DD00240FCE /* Assets.xcassets */,
+				A7B069D91FC823DD00240FCE /* LaunchScreen.storyboard */,
+				A7B069DB1FC823DD00240FCE /* 309769.lrc */,
+				A7B069DC1FC823DD00240FCE /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A7B069E11FC8241A00240FCE /* SongListView */ = {
+			isa = PBXGroup;
+			children = (
+				A7B069B01FC8239E00240FCE /* SongListTableView.h */,
+				A7B069A21FC8239E00240FCE /* SongListTableView.m */,
+				A7B069B11FC8239E00240FCE /* SongListTableViewCell.h */,
+				A7B069A71FC8239E00240FCE /* SongListTableViewCell.m */,
+				A7B069B41FC8239E00240FCE /* SongListTopView.h */,
+				A7B069A41FC8239E00240FCE /* SongListTopView.m */,
+				A7B069A31FC8239E00240FCE /* SongListView.h */,
+				A7B069AF1FC8239E00240FCE /* SongListView.m */,
+			);
+			path = SongListView;
+			sourceTree = "<group>";
+		};
+		A7B069E21FC8246800240FCE /* DetailControlView */ = {
+			isa = PBXGroup;
+			children = (
+				A7B069E71FC824D000240FCE /* TopView */,
+				A7B069E61FC824C500240FCE /* MidView */,
+				A7B069E51FC824B900240FCE /* BottomView */,
+			);
+			path = DetailControlView;
+			sourceTree = "<group>";
+		};
+		A7B069E31FC8247600240FCE /* SimpleControlView */ = {
+			isa = PBXGroup;
+			children = (
+				A7B069A01FC8239E00240FCE /* SimpleControlView.h */,
+				A7B069AD1FC8239E00240FCE /* SimpleControlView.m */,
+			);
+			path = SimpleControlView;
+			sourceTree = "<group>";
+		};
+		A7B069E41FC8248400240FCE /* SCImageView */ = {
+			isa = PBXGroup;
+			children = (
+				A7B0699E1FC8239E00240FCE /* SCImageView.m */,
+				A7B069A81FC8239E00240FCE /* SCImageView.h */,
+			);
+			path = SCImageView;
+			sourceTree = "<group>";
+		};
+		A7B069E51FC824B900240FCE /* BottomView */ = {
+			isa = PBXGroup;
+			children = (
+				A7B0699F1FC8239E00240FCE /* BottomView.h */,
+				A7B069AE1FC8239E00240FCE /* BottomView.m */,
+			);
+			path = BottomView;
+			sourceTree = "<group>";
+		};
+		A7B069E61FC824C500240FCE /* MidView */ = {
+			isa = PBXGroup;
+			children = (
+				A7B0699C1FC8239E00240FCE /* MidView.h */,
+				A7B069AA1FC8239E00240FCE /* MidView.m */,
+				A7B069AC1FC8239E00240FCE /* SCLrcTableView.h */,
+				A7B069A11FC8239E00240FCE /* SCLrcTableView.m */,
+				A7B069A51FC8239E00240FCE /* SCLrcTableViewCell.h */,
+				A7B069B31FC8239E00240FCE /* SCLrcTableViewCell.m */,
+				A7B0699D1FC8239E00240FCE /* SCIconView.m */,
+				A7B069A91FC8239E00240FCE /* SCIconView.h */,
+			);
+			path = MidView;
+			sourceTree = "<group>";
+		};
+		A7B069E71FC824D000240FCE /* TopView */ = {
+			isa = PBXGroup;
+			children = (
+				A7B0699B1FC8239E00240FCE /* TopView.h */,
+				A7B069AB1FC8239E00240FCE /* TopView.m */,
+			);
+			path = TopView;
+			sourceTree = "<group>";
+		};
+		A7E87DCF1F46C083003EA789 = {
+			isa = PBXGroup;
+			children = (
+				A7E87DDA1F46C083003EA789 /* SCMusic */,
+				A7E87DD91F46C083003EA789 /* Products */,
+				81608DCE1E031CB2657B57F9 /* Pods */,
+				4CA3F77D59CD895E3A2334C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7E87DD91F46C083003EA789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7E87DD81F46C083003EA789 /* SCMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7E87DDA1F46C083003EA789 /* SCMusic */ = {
+			isa = PBXGroup;
+			children = (
+				A7B0697B1FC8239E00240FCE /* Classes */,
+				A7B069D71FC823DD00240FCE /* Resources */,
+				A7E87DDB1F46C083003EA789 /* Supporting Files */,
+			);
+			path = SCMusic;
+			sourceTree = "<group>";
+		};
+		A7E87DDB1F46C083003EA789 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7E87DDC1F46C083003EA789 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7E87DD71F46C083003EA789 /* SCMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7E87DEF1F46C083003EA789 /* Build configuration list for PBXNativeTarget "SCMusic" */;
+			buildPhases = (
+				1A032BBC381B638EA14604E5 /* [CP] Check Pods Manifest.lock */,
+				A7E87DD41F46C083003EA789 /* Sources */,
+				A7E87DD51F46C083003EA789 /* Frameworks */,
+				A7E87DD61F46C083003EA789 /* Resources */,
+				A7E88AC31F46E5E1003EA789 /* Embed Frameworks */,
+				7552B3FF66760B80975566DF /* [CP] Embed Pods Frameworks */,
+				9AB5155EB7C5B1FE5291F8F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCMusic;
+			productName = BaiduMusic;
+			productReference = A7E87DD81F46C083003EA789 /* SCMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7E87DD01F46C083003EA789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "凌       陈";
+				TargetAttributes = {
+					A7E87DD71F46C083003EA789 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PGE57W8HKE;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A7E87DD31F46C083003EA789 /* Build configuration list for PBXProject "SCMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
+			mainGroup = A7E87DCF1F46C083003EA789;
+			productRefGroup = A7E87DD91F46C083003EA789 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7E87DD71F46C083003EA789 /* SCMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7E87DD61F46C083003EA789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B069E01FC823DD00240FCE /* Info.plist in Resources */,
+				A7B069DF1FC823DD00240FCE /* 309769.lrc in Resources */,
+				A7B069DD1FC823DD00240FCE /* Assets.xcassets in Resources */,
+				A7B069DE1FC823DD00240FCE /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A032BBC381B638EA14604E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SCMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7552B3FF66760B80975566DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SCMusic/Pods-SCMusic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SCMusic/Pods-SCMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AB5155EB7C5B1FE5291F8F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SCMusic/Pods-SCMusic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7E87DD41F46C083003EA789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B069C21FC8239E00240FCE /* OMArtistInfo.m in Sources */,
+				A7B069CD1FC8239E00240FCE /* SimpleControlView.m in Sources */,
+				A7B069EC1FC87B7C00240FCE /* DetailControlViewController.m in Sources */,
+				A7B069B81FC8239E00240FCE /* MusicPlayerManager.m in Sources */,
+				A7B069C41FC8239E00240FCE /* OMHotSongInfo.m in Sources */,
+				A7B069BE1FC8239E00240FCE /* OMAlbumInfo.m in Sources */,
+				A7B069C51FC8239E00240FCE /* SCIconView.m in Sources */,
+				A7B069BF1FC8239E00240FCE /* OMSongInfo.m in Sources */,
+				A7B069BA1FC8239E00240FCE /* ContentTableViewController.m in Sources */,
+				A7B069CF1FC8239E00240FCE /* SongListView.m in Sources */,
+				A7B069CB1FC8239E00240FCE /* MidView.m in Sources */,
+				A7B069D21FC8239E00240FCE /* MusicDownloader.m in Sources */,
+				A7B069BD1FC8239E00240FCE /* NavigationViewController.m in Sources */,
+				A7B069C71FC8239E00240FCE /* SCLrcTableView.m in Sources */,
+				A7B069C01FC8239E00240FCE /* Const.m in Sources */,
+				A7B069BC1FC8239E00240FCE /* AppDelegate.m in Sources */,
+				A7B069CC1FC8239E00240FCE /* TopView.m in Sources */,
+				A7B069C61FC8239E00240FCE /* SCImageView.m in Sources */,
+				A7E87DDD1F46C083003EA789 /* main.m in Sources */,
+				A7B069B91FC8239E00240FCE /* RootViewController.m in Sources */,
+				A7B069D11FC8239E00240FCE /* SCLrcTableViewCell.m in Sources */,
+				A7B069CA1FC8239E00240FCE /* SongListTableViewCell.m in Sources */,
+				A7B069C91FC8239E00240FCE /* SongListTopView.m in Sources */,
+				A7B069D01FC8239E00240FCE /* TTTopChannelContianerView.m in Sources */,
+				A7B069C81FC8239E00240FCE /* SongListTableView.m in Sources */,
+				A7B069CE1FC8239E00240FCE /* BottomView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7B069D91FC823DD00240FCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B069DA1FC823DD00240FCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7E87DED1F46C083003EA789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7E87DEE1F46C083003EA789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7E87DF01F46C083003EA789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6790A8193FA9B7CA308AE303 /* Pods-SCMusic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PGE57W8HKE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduMusic",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-ios/Debug",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-ios/Release",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-iphoneos/Debug",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-iphonesimulator/Debug",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-macosx/Debug",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-macosx/Release",
+				);
+				INFOPLIST_FILE = SCMusic/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Build/Targets/universal-apple-macosx",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-ios/Debug",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-iphoneos/Debug",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-iphonesimulator/Debug",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-macosx/Debug",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sc.SCMusic;
+				PRODUCT_NAME = SCMusic;
+				SWIFT_OBJC_BRIDGING_HEADER = "BaiduMusic/MJExtension/BaiduMusic-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A7E87DF11F46C083003EA789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A8DB80795BD417E85F0CAB /* Pods-SCMusic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = PGE57W8HKE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduMusic",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-ios/Debug",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-ios/Release",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-iphoneos/Debug",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-iphonesimulator/Debug",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-macosx/Debug",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-macosx/Release",
+				);
+				INFOPLIST_FILE = SCMusic/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Build/Targets/universal-apple-macosx",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-ios/Debug",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-iphoneos/Debug",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-iphonesimulator/Debug",
+					"$(PROJECT_DIR)/BaiduMusic/PlatinumKit/Platinum/Targets/universal-apple-macosx/Debug",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sc.SCMusic;
+				PRODUCT_NAME = SCMusic;
+				SWIFT_OBJC_BRIDGING_HEADER = "BaiduMusic/MJExtension/BaiduMusic-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7E87DD31F46C083003EA789 /* Build configuration list for PBXProject "SCMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E87DED1F46C083003EA789 /* Debug */,
+				A7E87DEE1F46C083003EA789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7E87DEF1F46C083003EA789 /* Build configuration list for PBXNativeTarget "SCMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7E87DF01F46C083003EA789 /* Debug */,
+				A7E87DF11F46C083003EA789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7E87DD01F46C083003EA789 /* Project object */;
+}
