@@ -23,6 +23,6 @@ SC Music Player is a music player which get the data from the baidu music. SC Mu
 App截图：
 
  
-![SCMusic截图](https://github.com/KeenTeam1990/KTMusic/master/SCMusic截图.png)
+![SCMusic截图](https://github.com/KeenTeam1990/KTMusic/blob/master/SCMusic截图.png)
 
-![SCMusic截图](https://github.com/KeenTeam1990/KTMusic/master/SCMusic截图.png)
+![SCMusic截图](https://github.com/KeenTeam1990/KTMusic/blob/master/SCMusic截图.png)
